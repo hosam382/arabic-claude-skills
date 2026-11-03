@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مهارات Claude بالعربي</title>
+<meta name="description" content="4 مهارات جاهزة تضيفها إلى Claude Code، للمطور والمعلم العربي: صفحات ويب عربية صحيحة، مراجعة الكتابة العربية، تقارير النشاط المدرسي، والتاريخ الهجري. مجانية ومفتوحة المصدر.">
+<meta property="og:title" content="مهارات Claude بالعربي">
+<meta property="og:description" content="صفحات RTL، مراجعة الكتابة، تقارير النشاط المدرسي، والتاريخ الهجري: 4 مهارات تثبتها بأمر واحد.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0e0d0c">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<meta property="og:title" content="مهارات Claude بالعربي">
+<meta property="og:description" content="أربع مهارات لـ Claude Code: المواقع العربية، مراجعة الكتابة، تقارير المدارس، والتاريخ الهجري.">
+<meta property="og:image" content="https://hosam382.github.io/arabic-claude-skills/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<main class="wrap">
+  <header class="head">
+    <img src="seal.png" alt="" width="56" height="56">
+    <div>
+      <h1>مهارات Claude بالعربي</h1>
+      <p class="sub">4 مهارات جاهزة تضيفها إلى Claude Code، للمطور والمعلم العربي. أمر واحد وتشتغل.</p>
+    </div>
+  </header>
+
+  <section class="card intro" id="intro" aria-labelledby="intro-title">
+    <h2 id="intro-title">وش هي مهارة Claude؟</h2>
+    <p>
+      المهارة (Skill) ملف تعليمات اسمه <code dir="ltr">SKILL.md</code> تحطه في مجلد المهارات عندك.
+      Claude Code يقرأ وصفها القصير، ولما يكون طلبك له علاقة بها يفتحها لحاله ويشتغل بخبرة محددة بدل الكلام العام.
+    </p>
+    <ol class="steps">
+      <li>اختر نظام جهازك من تحت.</li>
+      <li>اضغط «انسخ أمر التثبيت» والصقه في الطرفية (Terminal).</li>
+      <li>افتح جلسة Claude Code جديدة واطلب عادي، مثل: «دقق هذا النص» أو «اعرض التاريخ بالهجري».</li>
+    </ol>
+  </section>
+
+  <div class="os" id="os" role="group" aria-labelledby="os-label">
+    <span id="os-label" class="os-label">نظام جهازك</span>
+    <div class="tabs">
+      <button type="button" id="os-unix" data-os="unix" aria-pressed="true">macOS و Linux</button>
+      <button type="button" id="os-win" data-os="win" aria-pressed="false">Windows</button>
+    </div>
+    <p id="os-status" class="sr-only" aria-live="polite"></p>
+  </div>
+
+  <div id="skills" class="skills">
+    <noscript><p class="card">شغّل JavaScript عشان تظهر المهارات، أو افتح الملفات مباشرة من GitHub.</p></noscript>
+  </div>
+
+  <aside class="warn">
+    <b>قبل ما تثبت:</b> كل مهارة ملف نص عادي، تقدر تقراه كامل من زر «اعرض ملف SKILL.md». الأمر ينزّل هذا الملف بس
+    ويحطه في <code dir="ltr">~/.claude/skills</code>، وما يشغّل أي برنامج.
+  </aside>
+
+  <footer class="foot">
+    <span>صنعها حسام حسين خدا بخش</span>
+    <a href="https://github.com/hosam382/arabic-claude-skills">الكود مفتوح على GitHub</a>
+    <small class="ai">بُني بمساعدة الذكاء الاصطناعي (Claude) وراجعه حسام.</small>
+  </footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "arabic-claude-skills",
+  "version": "1.0.0",
+  "description": "مهارات Claude Code للمطور والمعلم العربي: صفحات RTL، مراجعة الكتابة، تقارير النشاط المدرسي، التاريخ الهجري",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "author": "Hassam Hussain Khada Bakhsa"
+}
