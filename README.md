@@ -1,5 +1,5 @@
 # مهارات Claude بالعربي | Arabic Claude Skills
-**By [Hassam Hussain Khada Bakhsa](https://github.com/hosam382)**
+**By [Hassam](https://github.com/hosam382)**
 
 الصفحة: [hosam382.github.io/arabic-claude-skills](https://hosam382.github.io/arabic-claude-skills/)
 
